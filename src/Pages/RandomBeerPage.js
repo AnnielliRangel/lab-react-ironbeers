@@ -5,3 +5,5 @@ function RandomBeer(){
         </div>
     )
 }
+
+export default RandomBeer
