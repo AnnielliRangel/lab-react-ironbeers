@@ -1,9 +1,9 @@
-import Navbar from "../Components/Navbar";
+import { useState } from "react"
 
 function NewBeer() {
   return (
     <div>
-      <Navbar />
+     
       <h1> ADD a NEW BEER</h1>
     </div>
   );

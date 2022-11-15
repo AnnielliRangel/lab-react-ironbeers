@@ -1,4 +1,4 @@
-import Navbar from "../Components/Navbar";
+
 import { useState, useEffect } from "react";
 import axios from "axios"
 
@@ -18,7 +18,7 @@ function RandomBeer() {
 
   return (
     <div>
-      <Navbar />
+     
       <div>
         <img
           src={`${beerRdm.image_url}`}

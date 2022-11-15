@@ -9,7 +9,7 @@ function AllBeers() {
       <div>
         <article>
           <Link to={"/beers"} style={{ fontSize: "24px" }}>
-        <img src={imgBeers} alt="beers" />
+        <img src={imgBeers} alt="beers" style={{width:'500px'}}/>
           </Link>
             <h1>All Beers </h1>
           <p> Aqui você encontra uma lista das Principais cervejas</p>
@@ -19,7 +19,7 @@ function AllBeers() {
 
         <article>
           <Link to={"/random"} style={{ fontSize: "24px" }}>
-        <img src={imgRandom} alt="beers" />
+        <img src={imgRandom} alt="beers" style={{width:'500px'}} />
           </Link>
             <h1>Random Beers</h1>
             
@@ -30,7 +30,7 @@ function AllBeers() {
         
         <article>
           <Link to={"/new"} style={{ fontSize: "24px" }}>
-          <img src={imgNew} alt="beers" />
+          <img src={imgNew} alt="beers" style={{width:'500px'}}/>
           </Link>
            <h1>New Beers</h1> 
           <p>Adicione uma nova cerveja</p>

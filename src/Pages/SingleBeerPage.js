@@ -1,4 +1,4 @@
-import Navbar from "../Components/Navbar";
+
 
 import { useParams } from "react-router-dom";
 
@@ -15,7 +15,7 @@ function SingleBeer({ beers }) {
 
   return (
     <div>
-      <Navbar />
+     
       <div>
         <img src={`${beerSelected.image_url}`} alt="beerSelected" style={{ maxHeight: "50vh" }} />
       </div>
