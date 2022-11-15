@@ -1,7 +1,11 @@
+import {Link} from "react-router-dom"
 function Navbar(){
     return(
-        <div>
-            <h1>LINK para a HOME</h1>
+        <div style={{backgroundColor:"blue"}}>
+            
+            
+            <Link to={`/`} style={{fontSize:"38px"}}>HOME</Link>
+            
         </div>
     )
 }
